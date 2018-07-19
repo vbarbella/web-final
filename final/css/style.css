@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|VT323');
+
+body {
+font-family: 'VT323', monospace;
+line-height: 20px;
+margin: 0px;
+background-image: url(../images/stars.gif);
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
+#text {
+height: auto;
+width: 700px;
+margin-top: 30px;
+margin-left: 450px;
+background: linear-gradient(to bottom, #dcc6ff 0%, #ffb2d4 100%); 
+border-style: dotted;
+border-color: #fff;
+border-width: 7px;
+
+}
+
+h1 {
+font-family: 'Aldrich', sans-serif;
+color: #ff72b8;
+text-shadow: 3px 2px #000;
+text-align: center;
+letter-spacing: 15px;
+padding: 20px;
+}
+
+h2{
+font-family: 'Aldrich', sans-serif;
+margin-left: 110px;
+color: #d272ff;
+text-shadow: 2px 1px #000;
+letter-spacing: 7px;
+}
+
+p {
+font-size: 20px;
+letter-spacing: 3px;
+margin-left: 110px;
+margin-right: 110px;
+
+}
+
+hr {
+border: 0;
+height: 2px;
+margin-top: -10px;
+margin-bottom: -16px;
+background-color: #000;
+width: 500px;
+}
+
+
+ul {
+text-align: left;
+list-style-position: inside;
+list-style-image: url(../images/daisy.png);
+line-height: 30px;
+margin-left: 8px;
+margin-bottom: 30px;
+}
+
+a {
+font-size: 25px;
+color: #000;
+text-decoration: none;
+letter-spacing: 5px;
+}
+a:hover {
+color: #28beff;
+text-shadow: 2px 1px #000;
+letter-spacing: 8px;
+}
+
+#nav {
+width: 250px;
+float: left;
+margin-left: 115px;
+background: linear-gradient(to bottom, #ffb2d4 0%, #dcc6ff 100%); 
+border-style: dotted;
+border-color: #fff;
+border-width: 7px;
+position: fixed;
+}
+#nav a {
+font-family: 'Aldrich', sans-serif;
+font-size: 20px;
+color: #000;
+text-decoration: none;
+letter-spacing: 8px;
+font-weight: bold;
+font-variant: small-caps;
+padding-left: 6px;
+}
+#nav a:hover {
+color: #d272ff;
+text-shadow: 2px 1px #000;
+letter-spacing: 10px;
+}
+
+iframe {
+display: block;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+width: 500px;
+}
